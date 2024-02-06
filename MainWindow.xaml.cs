@@ -27,6 +27,7 @@ namespace WebView2
             InitializeComponent();
             webView.NavigationStarting += EnsureHttps;
             addressBar.KeyDown += AddressBar_KeyDown;
+            addressBar.Text = "https://www.google.de";
             InitializeAsync();
         }
 

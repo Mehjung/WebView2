@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="WebView2.exe" version="1.0.0.2" publicKeyToken="e3cdf1657d2a9493" language="neutral" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="WebView2.exe" version="1.0.0.5" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
   <application />
   <entryPoint>
     <assemblyIdentity name="WebView2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
@@ -78,14 +78,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WebView2.exe" size="13736">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WebView2.exe" size="13224">
       <assemblyIdentity name="WebView2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>PEm18FX73rLKgjBTXxcTg0QpWkoVnmdQcSChS0PBV1k=</dsig:DigestValue>
+        <dsig:DigestValue>Fhz3Lg3IJtUpk2NdE24dFSlyL1EceHkJYZ2O4Q9pLzU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -125,4 +125,4 @@
       <dsig:DigestValue>+CM46OnHRrXZXNLMx7+U3V3iubiYL//d8hGOR13lDhU=</dsig:DigestValue>
     </hash>
   </file>
-<publisherIdentity name="CN=isla-PC\isla" issuerKeyHash="4c798b293ad956f8f1d1e0d51ca7b72de12e97ce" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>/msv3zK/T1aHh5u1LKaZhM2SdxTlDFogcx9blHFIYxc=</DigestValue></Reference></SignedInfo><SignatureValue>GlK/bKTY0DMa9b3vKKhx+YdZfce9k7JnGIIBqBHGyzYI8x4NmuG74XxHSWtxaTE3apGZwjlTRlViS/9pBQSuaYMrag2J6OF/fXxzEmzcWRlEc+2LiBh/WqyVYDzX2sGGOIuuhgOModXUcdaZIbX6ZSPIjpAk4iLnZfNobOSYhyw=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>qkpuI01bGCUQwxhlB1jga5DEKApnqrEV9WOgFIcmrIRJ6vrsTfQLb6HuaAEq9todzZOGoLjj6hZyilQE1LMtrtTZJ9Yo5hb2phMECWd6IO1yQBOFrGp42VkB45TW9c3HQA4YEte/q6zFq62OHntSs7ZywuUPMRcTOR2b7tn7Qp0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="17634871945b1f73205a0ce5147792cd8499a62cb59b8787564fbf32df2f6bfe" Description="" Url=""><as:assemblyIdentity name="WebView2.exe" version="1.0.0.2" publicKeyToken="e3cdf1657d2a9493" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=isla-PC\isla</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>MZOastkwU2pgrBcE+Vu5T3oiljOo22Kz1GhyLCXyE3U=</DigestValue></Reference></SignedInfo><SignatureValue>CKMaNFy6D1fR+rPUOFIXbTda9mK7yt2fXrgDWHzA5RdgZwXSOmBv5EfmvKsyC0rCVd0A+ARI05+OPy/ewFScRZh97Y1r8/GWJmw1MS2JgTZqR8FbuWnCRJy8GkaZGeyx5/mmUUJGqiaRgFQj1trKDlUOAK4EHUdHnEHJNb8Wie8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>qkpuI01bGCUQwxhlB1jga5DEKApnqrEV9WOgFIcmrIRJ6vrsTfQLb6HuaAEq9todzZOGoLjj6hZyilQE1LMtrtTZJ9Yo5hb2phMECWd6IO1yQBOFrGp42VkB45TW9c3HQA4YEte/q6zFq62OHntSs7ZywuUPMRcTOR2b7tn7Qp0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATKgAwIBAgIQT9Pm/iehk5ZFYOecA/IthjANBgkqhkiG9w0BAQsFADAjMSEwHwYDVQQDHhgAaQBzAGwAYQAtAFAAQwBcAGkAcwBsAGEwHhcNMjQwMjA0MTExODM3WhcNMjUwMjAzMTcxODM3WjAjMSEwHwYDVQQDHhgAaQBzAGwAYQAtAFAAQwBcAGkAcwBsAGEwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKpKbiNNWxglEMMYZQdY4GuQxCgKZ6qxFfVjoBSHJqyESer67E30C2+h7mgBKvbaHc2ThqC44+oWcopUBNSzLa7U2SfWKOYW9qYTBAlneiDtckAThaxqeNlZAeOU1vXNx0AOGBLXv6usxautjh57UrO2csLlDzEXEzkdm+7Z+0KdAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAhJzOuWTMaUau8+++BTeyxOZbld6gO3l1X66I7w6palVBMU4DskdTaG8M/LAvcF03Xqc4O+v2jv20S/QVqOrUQ8YwPFUnvNj0S0LqRSJp4fHC6JJyR9UCDT+OAr5V0FqJeXp0xLKa/JN4y6QNrggDmaR1kNrHRkO8P5g5wW4z04k=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
+</asmv1:assembly>
