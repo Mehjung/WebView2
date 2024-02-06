@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "CAle8pvN+qTp4UgaBWiARe1PTYG0LKXyk4R0wMgegCxdH/Cnt3PlDpc/iA2tnmBSBZG8ekHaqZwXshcKBYHtog==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\isla\\Desktop\\WebView2_NET_Framework\\WebView2\\WebView2\\WebView2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\isla\\.nuget\\packages\\microsoft.web.webview2\\1.0.2357-prerelease\\microsoft.web.webview2.1.0.2357-prerelease.nupkg.sha512"
+  ],
+  "logs": []
+}

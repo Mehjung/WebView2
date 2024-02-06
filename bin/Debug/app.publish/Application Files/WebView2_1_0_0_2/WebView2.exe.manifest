@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="WebView2.exe" version="1.0.0.2" publicKeyToken="e3cdf1657d2a9493" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="WebView2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="WebView2.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC-Manifestoptionen
+          Wenn Sie die Zugangsebene für das Windows-Benutzerkonto ändern möchten, ersetzen Sie den 
+          requestedExecutionLevel-Knoten durch eines der folgenden Elemente.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Löschen Sie den requestedExecutionLevel-Knoten, wenn Sie 
+         zum Gewährleisten der Abwärtskompatibilität die Datei- und Registrierungsvirtualisierung verwenden möchten.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.Web.WebView2.Core.dll" size="732120">
+      <assemblyIdentity name="Microsoft.Web.WebView2.Core" version="1.0.2357.0" publicKeyToken="2A8AB48044D2601E" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Rp/qu44naAuH2LyMTKX/Kup+8kSluJu1DtpNt8YzqMo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.Web.WebView2.WinForms.dll" size="40408">
+      <assemblyIdentity name="Microsoft.Web.WebView2.WinForms" version="1.0.2357.0" publicKeyToken="2A8AB48044D2601E" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Nz99BX5ahsv4fMIA/Lg8/gr/joivBv7EPoNSFzHFj6U=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.Web.WebView2.Wpf.dll" size="48088">
+      <assemblyIdentity name="Microsoft.Web.WebView2.Wpf" version="1.0.2357.0" publicKeyToken="2A8AB48044D2601E" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Qtwbg9H7QgZ4l6JvVUk//fROCZgkJeiFmbspvJsKPYI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WebView2.exe" size="13736">
+      <assemblyIdentity name="WebView2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>PEm18FX73rLKgjBTXxcTg0QpWkoVnmdQcSChS0PBV1k=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="runtimes\win-arm64\native\WebView2Loader.dll" size="138216">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>u3QIuVR5pXEm35PeWCjgmzScoUa58NlIRF/wUC/FrFM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="runtimes\win-x64\native\WebView2Loader.dll" size="162280">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>vUTgIdLCiBzCZ+bxA8l+/wdTMhzM4cul3DdLTitVoVI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="runtimes\win-x86\native\WebView2Loader.dll" size="116696">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>n9zrpcBDRrNmABlOd6RlvrlI8E2XVHmR0v1VEgR9tS4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="WebView2.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+CM46OnHRrXZXNLMx7+U3V3iubiYL//d8hGOR13lDhU=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=isla-PC\isla" issuerKeyHash="4c798b293ad956f8f1d1e0d51ca7b72de12e97ce" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>/msv3zK/T1aHh5u1LKaZhM2SdxTlDFogcx9blHFIYxc=</DigestValue></Reference></SignedInfo><SignatureValue>GlK/bKTY0DMa9b3vKKhx+YdZfce9k7JnGIIBqBHGyzYI8x4NmuG74XxHSWtxaTE3apGZwjlTRlViS/9pBQSuaYMrag2J6OF/fXxzEmzcWRlEc+2LiBh/WqyVYDzX2sGGOIuuhgOModXUcdaZIbX6ZSPIjpAk4iLnZfNobOSYhyw=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>qkpuI01bGCUQwxhlB1jga5DEKApnqrEV9WOgFIcmrIRJ6vrsTfQLb6HuaAEq9todzZOGoLjj6hZyilQE1LMtrtTZJ9Yo5hb2phMECWd6IO1yQBOFrGp42VkB45TW9c3HQA4YEte/q6zFq62OHntSs7ZywuUPMRcTOR2b7tn7Qp0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="17634871945b1f73205a0ce5147792cd8499a62cb59b8787564fbf32df2f6bfe" Description="" Url=""><as:assemblyIdentity name="WebView2.exe" version="1.0.0.2" publicKeyToken="e3cdf1657d2a9493" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=isla-PC\isla</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>MZOastkwU2pgrBcE+Vu5T3oiljOo22Kz1GhyLCXyE3U=</DigestValue></Reference></SignedInfo><SignatureValue>CKMaNFy6D1fR+rPUOFIXbTda9mK7yt2fXrgDWHzA5RdgZwXSOmBv5EfmvKsyC0rCVd0A+ARI05+OPy/ewFScRZh97Y1r8/GWJmw1MS2JgTZqR8FbuWnCRJy8GkaZGeyx5/mmUUJGqiaRgFQj1trKDlUOAK4EHUdHnEHJNb8Wie8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>qkpuI01bGCUQwxhlB1jga5DEKApnqrEV9WOgFIcmrIRJ6vrsTfQLb6HuaAEq9todzZOGoLjj6hZyilQE1LMtrtTZJ9Yo5hb2phMECWd6IO1yQBOFrGp42VkB45TW9c3HQA4YEte/q6zFq62OHntSs7ZywuUPMRcTOR2b7tn7Qp0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATKgAwIBAgIQT9Pm/iehk5ZFYOecA/IthjANBgkqhkiG9w0BAQsFADAjMSEwHwYDVQQDHhgAaQBzAGwAYQAtAFAAQwBcAGkAcwBsAGEwHhcNMjQwMjA0MTExODM3WhcNMjUwMjAzMTcxODM3WjAjMSEwHwYDVQQDHhgAaQBzAGwAYQAtAFAAQwBcAGkAcwBsAGEwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKpKbiNNWxglEMMYZQdY4GuQxCgKZ6qxFfVjoBSHJqyESer67E30C2+h7mgBKvbaHc2ThqC44+oWcopUBNSzLa7U2SfWKOYW9qYTBAlneiDtckAThaxqeNlZAeOU1vXNx0AOGBLXv6usxautjh57UrO2csLlDzEXEzkdm+7Z+0KdAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAhJzOuWTMaUau8+++BTeyxOZbld6gO3l1X66I7w6palVBMU4DskdTaG8M/LAvcF03Xqc4O+v2jv20S/QVqOrUQ8YwPFUnvNj0S0LqRSJp4fHC6JJyR9UCDT+OAr5V0FqJeXp0xLKa/JN4y6QNrggDmaR1kNrHRkO8P5g5wW4z04k=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

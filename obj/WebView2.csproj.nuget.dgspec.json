@@ -1,0 +1,65 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\isla\\Desktop\\WebView2_NET_Framework\\WebView2\\WebView2\\WebView2.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\isla\\Desktop\\WebView2_NET_Framework\\WebView2\\WebView2\\WebView2.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\isla\\Desktop\\WebView2_NET_Framework\\WebView2\\WebView2\\WebView2.csproj",
+        "projectName": "WebView2",
+        "projectPath": "C:\\Users\\isla\\Desktop\\WebView2_NET_Framework\\WebView2\\WebView2\\WebView2.csproj",
+        "packagesPath": "C:\\Users\\isla\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\isla\\Desktop\\WebView2_NET_Framework\\WebView2\\WebView2\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\isla\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nugetmusthaves.com/package/WindowsBase": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "Microsoft.Web.WebView2": {
+              "target": "Package",
+              "version": "[1.0.2357-prerelease, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-arm64": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
